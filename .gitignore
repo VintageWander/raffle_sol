@@ -1,7 +1,11 @@
-.anchor
+/.anchor
 .DS_Store
-target
-**/*.rs.bk
-node_modules
-test-ledger
-.yarn
+/target/debug
+/target/deploy/*.json
+/target/release
+/target/sbf-solana-solana
+/target/.rustc_info.json
+/**/*.rs.bk
+/node_modules
+/test-ledger
+/.yarn
